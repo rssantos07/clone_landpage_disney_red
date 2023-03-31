@@ -1,0 +1,64 @@
+.texto {
+    margin-bottom: 100px;
+    
+    &__filme{
+        letter-spacing: -1px;
+        line-height: 1.6;
+        width: 875px;
+        margin-top: 16px;
+
+        @media (max-width:768px) {
+          width: 80vw;     
+        }
+    }
+
+    &__detalhes {
+        margin-top: 72px;
+
+        &__linha {
+            border-top: 2px solid rgba(249,249,249, 0.2);
+            margin: 20px 0;
+            
+          }
+
+          &__titulo {
+            font-weight: bold;
+          }
+
+          &__descricao {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr;
+            
+            @media (max-width:768px) {
+              display: inline;     
+            }
+
+            &__filme {
+                padding: 12px;
+
+                @media (max-width:768px) {
+                padding-top: 24px;; ;    
+                
+            }
+                
+            }
+
+            &__duracao {
+              padding-top:45px ;
+              margin-left: 60px;
+
+              @media (max-width:768px) {
+                margin: 0;
+                padding: 12px;
+                
+            }
+            }
+          }
+
+
+
+    }
+
+    
+    
+}

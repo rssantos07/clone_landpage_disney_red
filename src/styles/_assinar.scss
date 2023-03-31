@@ -1,0 +1,29 @@
+.assinar {
+    display: flex;
+    margin-top: 32px;
+    
+    @media (max-width:768px) {
+        display: block;
+        
+      }
+    
+
+    &__link {
+        margin-right:24px;
+
+        @media (max-width:768px) { 
+            margin-bottom: 24px;
+        }
+    }
+
+    &__texto{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .button {
+        padding: 24px;
+
+    }
+}
+
